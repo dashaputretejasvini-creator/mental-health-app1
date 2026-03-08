@@ -122,4 +122,5 @@ def load_and_clean_data():
     df['age'] = df['age'].astype(int)
     df = df.reset_index(drop=True)
 
+
     return df
